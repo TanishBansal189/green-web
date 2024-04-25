@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waste Wise Solutions</title>
+    <link rel="icon" href="/imgs/logo.jpg" type="image/icon type">
+    <link rel="stylesheet" href=" /css/style.css">
+    <link rel="stylesheet" href="/src/output.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="nav-bar flex justify-between bg-[#084C27] items-center text-white text-xl ">
+        <div class="logo mx-10">
+         <img src="/imgs/logo.jpg" class="logo ">
+        </div>
+        <!-- Hamburger menu -->
+        <div class="flex md:hidden">
+          <button type="button" class="text-white hover:text-gray-400 focus:outline-none focus:text-gray-400" aria-label="toggle menu">
+            <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/>
+            </svg>
+          </button>
+        </div>
+        <div class="components hidden md:flex gap-10 items-center">
+         <div class="home   hover1">
+          <a href="/ "> Home</a> 
+         </div>
+         <div class="book  hover1">
+          <a href="/book"> Book</a>
+         </div>
+         <div class="my-profile  hover1 ">
+          <a href="/rewards"> Rewards</a>
+         </div>
+         <div class="sign-in rounded-lg p-1  hover1">
+          <a href="/user/signin"> Sign-In</a>
+         </div>
+         <div class="sign-up mr-6  hover1 ">
+          <a href="/user/signup">Sign-Up</a>
+         </div>
+        </div>  
+      </nav>
+      <div class="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative" role="alert">
+        <span class="text-green-500">&#10003;</span>
+        <span class="block sm:inline">Your service has been booked </span>
+      </div>
+    </body>
+    </html>

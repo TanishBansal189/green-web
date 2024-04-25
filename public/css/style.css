@@ -1,0 +1,72 @@
+.img1{
+    width:90%;
+    height: 30rem;
+}
+.hover1:hover{
+    color: greenyellow;
+}
+.supporting-para{
+    background-color: #00916E;
+}
+.logo{
+    height: 5rem;
+    cursor: pointer;
+}
+.work-content-1{
+    background-color: #3AB34A;
+    padding: 30px;
+}
+.work-content-2{
+    background-color: #3AB34A;
+    padding: 30px;
+}
+.work-content-3{
+    background-color: #3AB34A;
+    padding: 30px;
+}
+.working{
+    background-color: #E8E8E8;
+}
+.bonus{
+    height: 125px;
+}
+.insta{
+    height:20px;
+    cursor: pointer;
+}
+.supporting-para{
+    height: 16rem;
+}
+.pointer{
+    cursor: pointer;
+}
+.rounded-img{
+    border-radius: 12px;
+}
+.items{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr 4fr;
+    gap:1.2rem;
+}
+.my-8{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.points{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    right:0;
+    margin-right: 30px;
+}
+.point{
+    height:2.5rem;
+}
+.add-form{
+    position: absolute;
+    z-index :10;
+}
+.hide{
+    display: none;
+}
